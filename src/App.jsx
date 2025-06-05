@@ -1,10 +1,8 @@
-import { Parallax } from "react-scroll-parallax";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import { FaHeart } from "react-icons/fa";
 import Lottie from "lottie-react";
 import animationData from "./assets/Animation1.json";
-import animationData2 from "./assets/Animation2.json";
+
 import ForgiveMe from "./ForgiveMe";
 
 // Falling petals (as emojis, can be replaced with images if needed)
@@ -107,7 +105,6 @@ export default function App() {
             <br />
             With all my love,
             <br />
-            <span className="italic text-pink-400 text-xl">Me 💖</span>
           </p>
         </motion.div>
       </motion.section>
